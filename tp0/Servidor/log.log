@@ -1,0 +1,4 @@
+[INFO] 16:58:24:695 Servidor/(9678:9678): Servidor listo para recibir al cliente
+[INFO] 16:59:01:584 Servidor/(9678:9678): Se conecto un cliente!
+[INFO] 16:59:01:584 Servidor/(9678:9678): Me llego el mensaje Hola, soy un valor
+[ERROR] 16:59:25:113 Servidor/(9678:9678): el cliente se desconecto. Terminando servidor

@@ -1,0 +1,5 @@
+[INFO] 16:58:34:894 tp0/(9716:9716): Soy un Log
+[INFO] 16:58:35:112 tp0/(9716:9716): Hola, soy un valor
+[INFO] 16:58:50:921 tp0/(9716:9716): msj a logger
+[INFO] 16:58:56:968 tp0/(9716:9716): otro msj a logger
+[INFO] 16:59:00:717 tp0/(9716:9716): ultimo msj a logger
