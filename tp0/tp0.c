@@ -9,7 +9,6 @@
 
 int main(void)
 {
-	/*---------------------------------------------------PARTE 2-------------------------------------------------------------*/
 	int conexion;
 	char* ip;
 	char* puerto;
@@ -20,29 +19,23 @@ int main(void)
 
 	logger = iniciar_logger();
 
-	log_info(logger, "Soy un Log"); //Loggear "soy un log"
+	log_info(logger, "Soy un Log");
 
+	config = leer_config();
 
-	config = leer_config(); //crea una config
+	valor = config_get_string_value(config, "CLAVE");
 
-	valor = config_get_string_value(config, "CLAVE"); //busca la clave
-
-	log_info(logger, valor); //logea la clave
-
+	log_info(logger, valor);
 
 	leer_consola(logger);
-
-	//---TERCERA PARTE
-
-	//antes de continuar, tenemos que asegurarnos que el servidor esté corriendo porque lo necesitaremos para lo que sigue.
 
 	ip = "127.0.0.1";
 
 	puerto = "4444";
 
-	conexion = crear_conexion(ip, puerto); //crear conexion
+	conexion = crear_conexion(ip, puerto);
 
-	enviar_mensaje(valor, conexion); //enviar CLAVE al servirdor
+	enviar_mensaje(valor, conexion);
 
 	paquete(conexion);
 

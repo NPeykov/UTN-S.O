@@ -3,3 +3,8 @@
 [INFO] 16:58:50:921 tp0/(9716:9716): msj a logger
 [INFO] 16:58:56:968 tp0/(9716:9716): otro msj a logger
 [INFO] 16:59:00:717 tp0/(9716:9716): ultimo msj a logger
+[INFO] 21:16:22:667 tp0/(4102:4102): Soy un Log
+[INFO] 21:16:22:710 tp0/(4102:4102): Hola, soy un valor
+[INFO] 21:16:26:293 tp0/(4102:4102): hola
+[INFO] 21:16:54:613 tp0/(4427:4427): Soy un Log
+[INFO] 21:16:54:613 tp0/(4427:4427): Hola, soy un valor
